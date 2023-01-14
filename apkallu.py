@@ -10,10 +10,13 @@ import cv2
 import pytesseract
 
 
+
+
+
 def main():
     # Simple image to string
     #print(pytesseract.image_to_boxes(Image.open('img/test1.jpg')))
-    print(pytesseract.image_to_string(Image.open('img/sampletext.png')))
-    
+    #print(pytesseract.image_to_string(Image.open('img/sampletext.png')))
+    pass    
 
 main()

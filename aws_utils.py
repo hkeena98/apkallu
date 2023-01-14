@@ -2,6 +2,19 @@
 """
 
 import boto3
+import os
+from aws_config import AWSConfig
+
+
+"""
+"""
+class AWSUtilities:
+    def __init__(self):
+        self.credentials = AWSConfig()
+        self.access_key_id = self.credentials.ACCESS_KEY_ID
+        self.secret_key = self.credentials.SECRET_ACCESS_KEY
+        self.session_id = self.credentials.SESSION_TOKEN
+        self.region = self.credentials.REGION
 
 
 
